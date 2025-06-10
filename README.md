@@ -14,7 +14,6 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
@@ -52,9 +51,8 @@ I revisited the use of picture, and the srcset attribute to use different images
 
 ```html
 <picture>
-  <source media="(min-width:0px)" srcset="./images/hero-mobile.jpg" />
   <source media="(min-width:1440px)" srcset="./images/hero-desktop.jpg" />
-  <img src="./images/hero-desktop.jpg" alt="hero" />
+  <img src="./images/hero-mobile.jpg" alt="hero" />
 </picture>
 ```
 
@@ -65,6 +63,3 @@ I revisited the use of picture, and the srcset attribute to use different images
 ## Author
 
 - Frontend Mentor - [@broken555wheel](https://www.frontendmentor.io/profile/broken555wheel)
-
-
-
